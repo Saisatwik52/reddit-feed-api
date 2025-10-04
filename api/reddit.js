@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const username = "Satwik_1"; // 🔹 Replace this
+  const username = "Notadayover"; // 🔹 Replace this
   const limit = 20; // number of posts to fetch
 
   try {
