@@ -1,10 +1,10 @@
 export default async function handler(req, res) {
-  const username = "Satwik_1";
+  const username = "Notadayover";
   const limit = 20;
 
   try {
     const response = await fetch(
-      `https://www.reddit.com/user/Satwik_1/submitted/.json?limit=20`,
+      `https://www.reddit.com/user/Notadayover/submitted/.json?limit=20`,
       { headers: { 'User-Agent': 'reddit-feed-script' } }
     );
     const data = await response.json();
